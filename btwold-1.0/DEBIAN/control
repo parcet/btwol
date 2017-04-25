@@ -1,0 +1,14 @@
+Source: btwold
+Section: unknown
+Priority: optional
+Maintainer: Wulfstan
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: wulfstann@gmail.com
+Package: btwold
+Architecture: armhf
+Depends:
+Version: 1.0
+Description: Wake selected computers on LAN when BT device detection.
+ Installs daemon that wakes selected computers via LAN using WOL capability, 
+ when speciefied bluetooth device detected is close vicinity.

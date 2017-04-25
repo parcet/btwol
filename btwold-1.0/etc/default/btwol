@@ -1,0 +1,15 @@
+#Please specify your phone bluetooth MAC address
+PHONE_BT_MAC=XX:XX:XX:XX:XX:XX
+
+#Please specify your PC Ethernet MAC address
+PC_WOL_MAC=YY:YY:YY:YY:YY:YY
+
+# start btwold on boot?
+BTWOL_ENABLED=0
+
+
+#Uncomment to have more messengers
+#BTWOL_DEBUG_LEVEL=3
+
+#<phone_btaddr> <signal_threshold> <interval_short_ms> <interval_long_ms> <PC_MAC>
+BTWOL_OPTIONS="$PHONE_BT_MAC -45 5000 60000 $PC_WOL_MAC"
